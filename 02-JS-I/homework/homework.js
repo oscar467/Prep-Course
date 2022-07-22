@@ -13,7 +13,7 @@ const nuevoBool = true;
 const nuevaResta = 10 - 5 === 5;
 
 // Resuelve el siguiente problema matemático:
-const nuevaMultiplicacion = 10 * nu4ll === 40 ;
+const nuevaMultiplicacion = 10 * 4 === 40 ;
 
 // Resuelve el siguiente problema matemático:
 const nuevoModulo = 21 % 5 === 1;
@@ -89,7 +89,7 @@ function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
   // Tu código:
-  if(num<50){
+  if(num>50){
     return true;
   }
   return false;
@@ -155,7 +155,7 @@ function redondearHaciaArriba(num) {
 function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
-  return Math.random;
+  return Math.random();
 }
 
 function esPositivo(numero) {
@@ -191,7 +191,7 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  return "Hola "+nombre;
+  return "Hola "+nombre+"!";
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
@@ -232,7 +232,7 @@ function esVocal(letra){
   if(letra.length<1){
     return "Dato incorrecto";
   }
-  if(letra=="a" || letra=="e" || letra=="i" || letra=="o" || letra=="u" || ){
+  if(letra=="a" || letra=="e" || letra=="i" || letra=="o" || letra=="u"){
     return "Es vocal";
   }
   return "Dato incorrecto";
